@@ -1,0 +1,13 @@
+# rubyのzipメソッドの動作確認
+
+# 配列用意
+ary_a = ['apple', 'banana', 'orange']
+ary_b = [nil    , nil     , 'cake'  ]
+
+ary_a.zip(ary_b).each do |fruit, sweet|
+  puts fruit
+  puts sweet
+  puts '--------'
+end
+
+
